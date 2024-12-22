@@ -42,14 +42,14 @@ body{
 }
 @font-face {
     font-family: 'prelomedium';
-    src: url('../fonts/Prelo-Medium-webfont.woff2') format('woff2'),    
-         url('../fonts/Prelo-Medium-webfont.woff') format('woff');
+    src: url('https://nuevasnarrativasec.github.io/pataz-compendio/fonts/Prelo-Medium-webfont.woff2') format('woff2'),    
+         url('https://nuevasnarrativasec.github.io/pataz-compendio/fonts/Prelo-Medium-webfont.woff') format('woff');
          
 }
 @font-face {
     font-family: 'preloextrabold';
-    src: url('../fonts/Prelo-ExtraBold-webfont.woff2') format('woff2'),
-         url('../fonts/Prelo-ExtraBold-webfont.woff') format('woff');
+    src: url('https://nuevasnarrativasec.github.io/pataz-compendio/fonts/Prelo-ExtraBold-webfont.woff2') format('woff2'),
+         url('https://nuevasnarrativasec.github.io/pataz-compendio/fonts/Prelo-ExtraBold-webfont.woff') format('woff');
 
 }
 
