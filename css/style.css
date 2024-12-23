@@ -52,7 +52,11 @@ body{
          url('https://nuevasnarrativasec.github.io/pataz-compendio/fonts/Prelo-ExtraBold-webfont.woff') format('woff');
 
 }
-
+@font-face {
+    font-family: 'stagbold';
+    src: url('../fonts/stag-bold-webfont.woff2') format('woff2'),
+         url('../fonts/stag-bold-webfont.woff') format('woff');
+}
 
 .clear{
     clear: both;
@@ -137,7 +141,7 @@ body{
         
                 
 .box-cabecera{
-    /*background: url('https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/fujimori-muerte/img/bg-portada.jpg') no-repeat center top;*/
+    background: url('../img/bg-portada.jpg') no-repeat center top;
     overflow: hidden;
     position: relative;
     z-index: 9999999;
@@ -242,8 +246,8 @@ body{
         width: 980px;
     }
     h1{
-        color: #d72054;
-        font: 3.1em/1.2 "GuardianEgyp-Light";
+        color: #000;
+        font: 8.1em/0.9 'stagbold';
         margin: 20px auto 0;
         padding: 20px 0 0;
         text-align: center;
@@ -251,16 +255,22 @@ body{
         width: 100%;
         margin-top: 2vh;
     }
+        h1 span{
+            display: block;
+            font-size: 100px;
+            text-transform: uppercase;
+        }
     .main h2{
         color: #000;
-        font: 17px/1.7 'prelomedium';
+        font: 18px / 1.7 "Noto Serif KR", serif;
         font-weight: 500;
         margin: 50px auto;
-        max-width: 420px;
+        max-width: 600px;
         text-align: center;
     }
         h2 span {
-            font-family: 'preloextrabold';
+            color: #AC9130;
+            font-weight: 800;
         }
         
     h3{
@@ -396,13 +406,22 @@ body{
             font-weight: 700;
         }
 
+a.link-suscribete{
+    display: block;
+    margin: 0 auto;
+    max-width: 620px;
+}
+.iframe-hitos{
+    margin-top: 50px;
+}
+
 @media only screen and (max-width: 640px){
 
     #social ul li a.wst{
         display: block;
     }    
     h1{
-        font-size: 2em;
+        font-size: 5em;
     }
     h2{
         font-size: 1.1em;
@@ -467,6 +486,7 @@ body{
 
     h1 span{
         display: block;
+        font-size: 4rem;
     }
     .border{
         border: none;
@@ -761,7 +781,7 @@ img.flecha {
     cursor: pointer;
     left: 50%;
     margin-left: -35px;
-    max-width: 75px;
+    max-width: 50px;
     position: absolute;
     z-index: 10;
 }
