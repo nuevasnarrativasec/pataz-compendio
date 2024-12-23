@@ -385,6 +385,16 @@ body{
     padding-top: 60px;
 }
 
+.box-creditos{
+}
+    .box-creditos p{
+        font-size: 16px;
+        text-align: center;
+    }
+        .box-creditos p span{
+            display: block;
+            font-weight: 700;
+        }
 
 @media only screen and (max-width: 640px){
 
